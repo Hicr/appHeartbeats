@@ -1,2 +1,3 @@
-# appHeartbeats
-Use the connectivity of the interface to detect the heartbeat of the application system
+# Python 心跳检测脚本
+
+利用python脚本实现对应用系统心跳检测功能，利用定时器，去调用业务系统接口，本脚本中调用业务系统的swagger接口来进行测试，将测试结果写入数据库，可修改为邮件预警
